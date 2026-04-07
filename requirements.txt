@@ -1,0 +1,20 @@
+# AI & Machine Learning
+torch
+transformers
+joblib
+scikit-learn
+numpy
+pandas
+
+# Agent Orchestration
+langgraph
+langchain-core
+langchain-ollama
+ollama
+
+# APIs & Communication
+discord.py
+google-api-python-client
+google-auth-oauthlib
+google-auth
+python-dotenv

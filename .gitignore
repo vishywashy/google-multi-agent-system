@@ -1,0 +1,7 @@
+.env
+Credentials.json
+token files/
+output.csv
+# Python temporary files
+__pycache__/
+*.py[cod]
