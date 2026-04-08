@@ -47,7 +47,7 @@ def Create_Event(subject:str, year:int, month:int, day:int, hour:int, minute:int
   }
 }
     response = calendar_service.events().insert(
-    calendarId=""primary"",        # Use 'primary' or the specific calendar ID
+    calendarId="primary",        # Use 'primary' or the specific calendar ID
     body=event_request_body,     # The dictionary containing event details,           # Options: 'all', 'externalOnly', or 'none'     # Set to 1 if you are generating Google Meet links
     maxAttendees=None,           # Integer: Maximum number of attendees to include
     supportsAttachments=False,
