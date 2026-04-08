@@ -2,6 +2,7 @@
 Credentials.json
 token files/
 output.csv
+Decode.py
 # Python temporary files
 __pycache__/
 *.py[cod]
