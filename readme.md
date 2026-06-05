@@ -35,10 +35,10 @@ pip install -r requirements.txt
 
 
 ### Installation
-1. **Clone the repository:**
+1.**Clone the repository:**
    ```bash
-git clone https://github.com/vishywashy/google-multi-agent-system
-cd google-multi-agent-system
+    git clone https://github.com/vishywashy/google-multi-agent-system
+    cd google-multi-agent-system
 
 ```
 -These lines of code will get you into the repo. You have to also replace the .env with your secrets to run the code
