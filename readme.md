@@ -41,7 +41,7 @@ pip install -r requirements.txt
     cd google-multi-agent-system
 
 ```
--These lines of code will get you into the repo. You have to also replace the .env with your secrets to run the code
+- These lines of code will get you into the repo. You have to also replace the .env with your secrets to run the code
 
 # Inside your .env you add:
 ```env
