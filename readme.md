@@ -28,7 +28,7 @@
 - Python 3.10+
 - [Ollama](https://ollama.com) installed and running.
 - Google Cloud Console Project with Calendar/Gmail APIs enabled.
--Everything specified in **requirements.txt** installed. To do this you go into the project and run
+- Everything specified in **requirements.txt** installed. To do this you go into the project and run
 ```bash
 pip install -r requirements.txt
 ```
