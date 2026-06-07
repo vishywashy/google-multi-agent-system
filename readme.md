@@ -3,14 +3,14 @@
 ## What is this system❓
 
 - This is a system that contains a gmail agent and a google calendar agent. These agents are built on **langgraph** and is routed by a pytorch router. 
-- The neural networks I used are piecelinear which means that that the negative values in the data are turned to 0. 
+- The neural networks I used are piecewise linear neural network which means that that the negative values in the data are turned to 0. This was done with the ReLu activation function.
 - This is so that the AI can make decisions and classify the user's query to the right agent. I also used an LLM before the user's prompt to ensure that the pytorch router is able to route correctly without any "noise" getting in the way.
 
 ## 🧠 System Architecture
 - The user types a prompt. An LLM takes that prompt and simplifies it to its direct intent. 
 - The pytorch router then takes that direct intent and I use an if else statement after that based on the **pytorch router's** response. 
 - It routes the task to the appropriate agent and that agent does that task. 
-- The reason I used a pytorch router rather than a standard LLM is cause of the drawbacks. 
+- The reason I used a pytorch router rather than a standard LLM is because of the drawbacks. 
 - While LLM's are good at making decisions they tend to loop a lot especially when the architecture of a system gets complex. 
 - A pytorch router is fast efficient and when paired with an LLM I don't get a looping problem because I have more control over the data I feed into it making the system more efficient if I were not to use it.
 
