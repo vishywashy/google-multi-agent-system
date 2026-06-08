@@ -1,4 +1,4 @@
-# Google Multi Agent system
+# Workspace Multi Agent system
 
 ## What is this system❓
 
